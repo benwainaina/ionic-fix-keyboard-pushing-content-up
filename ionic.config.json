@@ -1,0 +1,7 @@
+{
+  "name": "21.ionic-fix-keyboard-pushing-content-up",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
