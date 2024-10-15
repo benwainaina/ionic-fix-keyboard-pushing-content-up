@@ -1,23 +1,28 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title> Blank </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <form>
-      <input type="text" placeholder="username" />
-      <input type="text" placeholder="password" />
-      <input type="text" placeholder="confirm password" />
-      <input type="text" placeholder="email" />
-      <button>Sign Up</button>
+<ion-content>
+  <div class="wrapper">
+    <h1 class="wrapper__title">Create an account</h1>
+    <form class="wrapper__signup-form">
+      <input
+        class="wrapper__signup-form__field"
+        type="text"
+        placeholder="username"
+      />
+      <input
+        class="wrapper__signup-form__field"
+        type="text"
+        placeholder="password"
+      />
+      <input
+        class="wrapper__signup-form__field"
+        type="text"
+        placeholder="confirm password"
+      />
+      <input
+        class="wrapper__signup-form__field"
+        type="text"
+        placeholder="email"
+      />
+      <button class="wrapper__signup-form__button">Sign Up</button>
     </form>
   </div>
 </ion-content>
